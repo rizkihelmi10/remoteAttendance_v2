@@ -2059,6 +2059,7 @@ public class MainActivity extends AppCompatActivity
         return 100;
     }
 
+		// TODO: USING HTTP MIME
     /*public void uploadtoserverFP(int primary,String uid,String loc,String lat,String lon,String time,String date,String stat,byte[] k,String IP,String remark)  {
 
         String dothis;
@@ -2107,6 +2108,7 @@ public class MainActivity extends AppCompatActivity
         startActivity(intent);
         this.finish();
     }*/
+		// TODO : USING HTTPCONNECTION LIBRARY
     public void uploadtoserverFP(int primary, String uid, String loc, String lat, String lon, String time, String date, String stat, byte[] k, String IP, String remark) {
 
         String dothis;
@@ -2612,6 +2614,7 @@ public class MainActivity extends AppCompatActivity
         }
 
     }
+		// TODO : USING HTTP MIME
 
    /* public boolean postNoImage(String url, List<NameValuePair> nameValuePairs,byte[] pic1,String UserID) {
 
@@ -2704,6 +2707,7 @@ public class MainActivity extends AppCompatActivity
 
         return bFlag;
     }*/
+		// TODO : USING HTTPCONNECTION LIBRARY
    public boolean postNoImage(String url, List<NameValuePair> nameValuePairs, byte[] pic1, String UserID) {
        boolean bFlag = false;
 
