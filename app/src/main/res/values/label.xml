@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label_addnews">Add News</string>
+    <string name="label_select_section">Select News Section</string>
+    <string name="label_choose_news">Choose News Section</string>
+    <string name="label_pic">Picture :</string>
+    <string name="label_days">day(s)</string>
+    <string name="label_author">Author :</string>
+    <string name="label_email">Email :</string>
+    <string name="label_titile">News Title :</string>
+    <string name="label_descp">Description :</string>
+    <string name="label_sect">News Section :</string>
+	<string name="label_title_bulletin">View News</string>
+    <string name="label_pubdate">Publish Start Date :</string>
+    <string name="label_pubduration">Publish Duration :</string>
+    <string name="label_uid">Username :</string>
+    <string name="label_pwd">Password :</string>
+    <string name="label_server">Workplace™  Server Domain :</string>
+    <string name="label_active">Default domain</string>
+    <string name="hint_label_tvNewsTitle">Header of this news</string>
+    <string name="btn_label_submit">Submit</string>
+    <string name="btn_label_save">Save</string>
+    <string name="btn_label_edit">Edit</string>
+    <string name="btn_label_cancel">Cancel</string>
+    <string name="btn_label_update">Update</string>
+    <string name="btn_label_upload">Upload</string>
+    <string name="btn_label_regwp">Register with Workplace™</string>
+    <string name="btn_label_newserver">Add Another Domain</string>
+    <string name="btn_label_showlocation">Include My Location</string>
+    <string name="btn_label_hidelocation">Exclude My Location</string>
+    <string name="label_add_news">Add News</string>
+    <string name="label_menu_news">News</string>
+    <string name="label_menu_chat">Chat</string>
+    <string name="label_menu_portal">Web Portal</string>
+    <string name="label_menu_calendar">Calendar</string>
+    <string name="label_search_news">Search News</string>
+    <string name="label_config">Configuration</string>
+    <string name="label_shortcut">Shortcut</string>
+    <string name="label_firstconfig">Workplace™  Setting (First Time Login)</string>
+    <string name="label_userconfig">User Configuration</string>
+    <string name="label_newslist">News List</string>
+    <string name="label_newsdetail">News detail</string>
+    <string name="label_editnews">Edit News</string>
+    <string name="label_view_bulletin">View News</string>
+    <string name="label_goto_workplace">Workplace™</string>
+    <string name="label_domain_def">[Workplace™ Domain Address]</string>
+    <string name="hint_server">[domain|address]/Workplace</string>
+    <string name="hint_uid">Workplace™ Username</string>
+    <string name="hint_pwd">Workplace™ Password</string>
+    <string name="hint_loc">Workplace™ Location key(Optional)</string>
+    <string name="label_serverlist">Workplace Server Domain List</string>
+    <string name="label_domainlist">Change Current Domain</string>
+    <string name="label_title_calendar">Calendar</string>
+    <string name="label_title_shortcut">Shortcut</string>
+    <string name="label_notice_pic">(camera Resolution should be set to ""800x600"" and Image Quality set to ""Normal"")</string>
+     <string name="btn_Filemanager">File Manager</string>
+     
+     <string-array name="server_http">
+        <item ID="1">http://</item>
+        <item ID="2">https://</item>
+    </string-array>
+
+    <string-array name="user">
+        <item ID="1">All Administrator</item>
+        <item ID="2">Syukri</item>
+        <item ID="3">Wan</item>
+        <item ID="4">Adele</item>
+        <item ID="5">Jay</item>
+        <item ID="6">Azwi</item>
+    </string-array>
+</resources>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:layout_height="30dp">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="LOCATION MANAGEMENT"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/wpicon" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:orientation="vertical"
+        android:background="#7f8c8d"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="LOCATION MANAGEMENT"
+            android:textColor="@color/whiteCardColor"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:orientation="horizontal"
+        android:background="#ecf0f1">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            app:srcCompat="@drawable/loc" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtunknown"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="UNKNOWN LOCATION"
+                android:textColor="#e74c3c"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/txtuthorised"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"
+                android:text="You are logging in from an Unathorized Location"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:orientation="horizontal"
+        android:background="#ecf0f1"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/txtpleaseselect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#34495e"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:textSize="12dp"
+            android:text="To continue, please choose ONE of the below options:"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnLocGuest"
+        android:text="@string/locationguest"
+        android:layout_height="50dp"
+        android:textSize="12dp"
+        android:textColor="@color/whiteCardColor"
+        android:background="@color/colorAccent"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="250dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnUserRequestLoc"
+        android:text="@string/locationguestrequest"
+        android:layout_height="50dp"
+        android:textColor="@color/whiteCardColor"
+        android:textSize="12dp"
+        android:background="@color/colorAccent"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="250dp"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/btnUserHaveLocKey"
+        android:text="@string/locationalreadykey"
+        android:textSize="12dp"
+        android:layout_height="50dp"
+        android:textColor="@color/whiteCardColor"
+        android:background="@color/colorAccent"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="250dp"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/btnBackinitlocation"
+        android:text="Back to Login Page"
+        android:textSize="12dp"
+        android:layout_height="50dp"
+        android:textColor="@color/whiteCardColor"
+        android:background="@color/colorAccent"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="250dp"
+        android:visibility="invisible"
+        android:layout_marginTop="5dp"/>
+
+
+</LinearLayout>

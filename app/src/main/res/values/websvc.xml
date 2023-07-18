@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_auth">/websvc/userauth.wp</string>
+    <string name="upload_news">/websvc/uploadnews.wp</string>
+    <string name="bulletin">/paneobject/pane_mobile.wp</string>
+    <string name="wp_index">/index_mobile.wp</string>
+    <string name="wp_process">/processaccuser.wp?platform=m</string>
+    <string name="wp_calendar">/calendar_mobile.wp</string>
+    <string name="wp_shortcut">/dashboard_mobile.wp</string>
+    <string name="cloud_index">/blog/website/main/AndroidIndex.wp</string>
+</resources>

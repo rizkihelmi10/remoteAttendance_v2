@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "607598815768",
+    "project_id": "remoteattendancev2",
+    "storage_bucket": "remoteattendancev2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607598815768:android:0a749a233a323fcc6f716d",
+        "android_client_info": {
+          "package_name": "com.smartlab.remoteattendance_v2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607598815768-76aoh68g3u8f9vb0npcernfcpdv302fg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smartlab.remoteattendance_v2",
+            "certificate_hash": "8a07a1a43bad86558bd6bb0e498b529381dc9686"
+          }
+        },
+        {
+          "client_id": "607598815768-ehvac18queb2q08t565tu7tef0pnqe3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEmYLtB0eWCBTX6gaebM3ArZx_NOx6iy0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "607598815768-ehvac18queb2q08t565tu7tef0pnqe3o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

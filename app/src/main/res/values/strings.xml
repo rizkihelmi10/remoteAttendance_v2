@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Remote Attendance v2</string>
+    <string name="app_ver">v6.29</string>
+    <string name="app_name_empty"></string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Syukri</string>
+    <string name="nav_header_subtitle">Syukri@smartlab.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Configuration</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="register">REGISTER</string>
+
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+
+    <!--LOCATION MANAGEMENT -->
+    <string name="promtminingfulname">\u2022 Please insert meaningful name for this location.</string>
+    <string name="promtminingselectspecific">\u2022 Select a specific Adminsitrator to aprove this location request(or leave it as it is and send this request to all Administrator.)</string>
+    <string name="promtselectadmin">\u2022 Click REQUEST to proceed.</string>
+    <string name="locationdesc"><u>Registration By Administrator/Location Creator</u></string>
+    <string name="locationdescpoint">\u2022 Please key-in the Master Location Key</string>
+    <string name="locationguest">\u2022 Proceed as GUEST</string>
+    <string name="locationguestrequest">\u2022 Request location authorization from Administrator</string>
+    <string name="locationalreadykey">\u2022 You already have the Location Key given by Administrator</string>
+    <!--LOCATION MANAGEMENT user-->
+    <string name="promtgivenLoc"><u>Registration Using Given Location Key</u></string>
+    <string name="promtminingkeyin">\u2022 Key-in the Location Key given by Adminstrator and click REGISTER.</string>
+
+    <string name="instructions">
+        Place your fingertip on the Home button to verify your identity to login
+    </string>
+    <string name="title_activity_test_map">Maps</string>
+
+    <string name="remark_prompt">Choose an option</string>
+
+    <string-array name="remark_arrays">
+        <item>Solat</item>
+        <item>IN</item>
+        <item>OUT</item>
+        <item>Lunch-IN</item>
+        <item>Lunch-OUT</item>
+        <item>Overtime-IN</item>
+        <item>Overtime-OUT</item>
+    </string-array>
+
+</resources>

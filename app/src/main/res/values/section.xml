@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="smartlab_section_array">
+        <item ID="1">Management News</item>
+        <item ID="2">Admin News</item>
+        <item ID="3">ESG News</item>
+        <item ID="4">MIS News</item>
+        <item ID="5">Helpdesk News</item>
+        <item ID="6">Sports N Recreation</item>
+    </string-array>
+    
+    <string-array name="chulia_section_array">
+        <item ID="1">Management News</item>
+        <item ID="2">HR and Finance News</item>
+        <item ID="3">Operation News</item>
+        <item ID="5">IT News</item>
+        <item ID="12">Helpdesk News</item>
+        <item ID="4">Sports and Recreation</item>
+    </string-array>
+    
+    <string-array name="section_array">
+        <item ID="1">Management News</item>
+        <item ID="2">Admin News</item>
+        <item ID="3">MIS News</item>
+        <item ID="4">Helpdesk News</item>
+        <item ID="5">Sports and Recreation</item>
+    </string-array>
+</resources>

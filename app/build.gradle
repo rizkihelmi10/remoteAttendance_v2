@@ -1,0 +1,136 @@
+
+
+plugins{
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+
+android {
+    namespace "com.smartlab.remoteattendance_v2"
+    compileSdk 33
+    buildToolsVersion '32.0.0'
+    defaultConfig {
+        applicationId "com.smartlab.remoteattendance_v2"
+        minSdkVersion 30
+        targetSdkVersion 33
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        useLibrary 'org.apache.http.legacy'
+
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    android{
+        useLibrary 'org.apache.http.legacy'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+    productFlavors {
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    /*task prepareKotlinBuildScriptModel {
+
+    }*/
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+}
+
+dependencies {
+    constraints {
+        implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0") {
+            because("kotlin-stdlib-jdk7 is now a part of kotlin-stdlib")
+        }
+        implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0") {
+            because("kotlin-stdlib-jdk8 is now a part of kotlin-stdlib")
+        }
+    }
+    implementation 'androidx.appcompat:appcompat:1.7.0-alpha02'
+    implementation files('libs/KSOAP2-ANDROID-ASSEMBLY-2.6.0-JAR-WITH-DEPENDENCIES.JAR')
+    //implementation group: 'org.apache.httpcomponents', name: 'httpmime', version: '4.5.13'
+    //noinspection DuplicatePlatformClasses
+    implementation 'org.apache.httpcomponents:httpmime:4.5.14'
+    implementation 'org.apache.httpcomponents:httpclient:4.5.13'
+    //implementation files('libs/httpmime-4.5.13.JAR')
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    //implementation 'com.google.android.material:material:1.5.0-alpha01'
+    implementation 'com.google.android.material:material:1.6.0-alpha02'
+    implementation 'androidx.constraintlayout:constraintlayout:2.2.0-alpha09'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test:runner:1.5.2'
+    implementation 'androidx.camera:camera-core:1.2.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation 'com.google.android.gms:play-services-maps:18.1.0'
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    implementation 'com.google.android.gms:play-services-ads:22.0.0'
+    implementation 'com.google.firebase:firebase-core:16.0.0'
+    implementation platform('com.google.firebase:firebase-bom:32.0.0')
+    implementation 'com.google.firebase:firebase-auth:22.0.0'
+    implementation 'com.google.firebase:firebase-messaging:23.1.2'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+   // implementation 'me.aflak.libraries:fingerprint:2.5.3'
+    implementation 'com.google.firebase:firebase-core:21.1.1'
+
+//    GoogleServicesPlugin.config.disableVersionCheck = true
+    //QR API
+    //implementation 'com.journeyapps:zxing-android-embedded:3.0.2@aar'
+   // implementation 'com.google.zxing:core:3.5.1'
+    //Face
+    implementation 'androidx.biometric:biometric:1.1.0'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.25'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.android.gms:play-services-maps:18.1.0'
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    implementation 'com.google.android.gms:play-services-ads:22.0.0'
+    //QR API
+   // implementation 'com.journeyapps:zxing-android-embedded:3.2.0@aar'
+   // implementation 'com.google.zxing:core:3.5.1'
+    implementation 'androidx.annotation:annotation:1.6.0'
+    //EasyPermission
+    implementation 'pub.devrel:easypermissions:3.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    //Screen Sharing API
+    implementation 'com.opentok.android:opentok-android-sdk:2.19.0'
+    implementation 'pub.devrel:easypermissions:3.0.0'
+    //implementation 'org.webrtc:google-webrtc:1.0.22672'
+    //-- chat
+    implementation 'com.github.viethoa:customdialogs:4.0.0'
+    implementation 'androidx.work:work-runtime-ktx:2.7.1'
+
+    //crop
+//    implementation("com.vanniktech:android-image-cropper:4.5.0")
+
+
+    //crop picaseo
+ //   api 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
+    implementation "com.squareup.picasso:picasso:2.5.2"
+
+
+}
+
+
